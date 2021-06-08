@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.request.RequestOptions;
 
 public class About extends AppCompatActivity {
 
@@ -25,7 +26,7 @@ public class About extends AppCompatActivity {
 
         ab.setTitle("About Us");
 
-        String url = "https://upload.wikimedia.org/wikipedia/commons/8/80/Republic_Polytechnic_Logo.jpg";
+        String url = "htps://upload.wikimedia.org/wikipedia/commons/8/80/Republic_Polytechnic_Logo.jpg";
 
         Glide.with(this)
                 .load(url)
